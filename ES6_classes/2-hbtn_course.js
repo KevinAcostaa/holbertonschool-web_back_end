@@ -12,7 +12,7 @@ class HolbertonCourse {
         }
 
         this._name = name;
-        this._lenght = lenght;
+        this._lenght = length;
         this._students = students;
     }
 
