@@ -1,10 +1,10 @@
 
 class HolbertonCourse {
-    constructor(name, lenght, students) {
+    constructor(name, length, students) {
         if (typeof name != 'string') {
             throw new TypeError('Name must be a string');
         }
-        if (typeof lenght != 'number') {
+        if (typeof length != 'number') {
             throw new TypeError('Lenght must be a number');
         }
         if (!Array.isArray(students) || !students.every((student) => typeof student === 'string')) {
@@ -12,7 +12,7 @@ class HolbertonCourse {
         }
 
         this._name = name;
-        this._lenght = length;
+        this._length = length;
         this._students = students;
     }
 
