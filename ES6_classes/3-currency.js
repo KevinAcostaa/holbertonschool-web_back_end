@@ -34,7 +34,7 @@ class Currency {
     }
 
     displayFullCurrency(){
-        return `${this._code} ${this._name}`
+        return `${this._name} (${this._code})`
     }
 
 }
