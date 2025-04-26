@@ -2,10 +2,10 @@
 """
 function parameters and return values with the appropriate types
 """
-from typing import Iterable, Tuple, List, Any
+from typing import Iterable, Tuple, List, Sequence
 
 
-def element_length(lst: Iterable[Any]) -> List[Tuple[Any, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     function parameters and return values with the appropriate types
     """
