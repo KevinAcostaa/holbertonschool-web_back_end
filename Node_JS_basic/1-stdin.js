@@ -1,12 +1,12 @@
-const Myline = require('readline');
+const readline = require('readline');
 
-const Ml = Myline.createInterface({
+const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
 
-Ml.question('Welcome to Holberton School, what is your name?\n', (name) => {
+rl.question('Welcome to Holberton School, what is your name?\n', (name) => {
   console.log(`Your name is: ${name}`);
   console.log('This important software is now closing');
-  Ml.close();
+  rl.close();
 });
